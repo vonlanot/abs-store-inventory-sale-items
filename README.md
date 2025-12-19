@@ -22,11 +22,30 @@ ETL
 
 Implemented an ETL process to convert unstructured JSON data into a format suitable for analysis.
 
+
+
 Additional columns added not included in JSON
 
 1. Availability - Out of Stock / In Stock
+2. Pricing Tier - Budget (<$20) to Luxury(>$1000)
 
-2\. Pricing Tier - Budget (<$20) to Luxury(>$1000)
+
+
+Removed 1 SKU in Power BI because Code is null but daily csv unchanged:
+
+&nbsp;	Record ID 4439
+
+&nbsp;	Code null
+
+&nbsp;	Category AUSTRALIAN
+
+&nbsp;	Description PENFOLDS BIN 8 CAB/SHZ - 750ML
+
+&nbsp;	Size 750ML
+
+&nbsp;	Total Inventory 0
+
+&nbsp;	Price 22.99
 
 
 
@@ -44,12 +63,3 @@ Tools Used
 * Power BI
 * Power Query
 * Excel
-
-
-
-
-
-
-
-
-
