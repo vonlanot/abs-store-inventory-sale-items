@@ -10,6 +10,10 @@ This project provides an analysis of the Alcoholic Beverage Services (ABS) in Mo
 
 
 
+This project also involves daily data collection. Once a full month of daily data is compiled, we can take a deeper look at the data. Missed daily sales for December 25-26, 2025 though. :(
+
+
+
 Data Source: https://catalog.data.gov/dataset/abs-store-inventory-and-sale-items
 
 Format: Live JSON API
@@ -33,19 +37,19 @@ Additional columns added not included in JSON
 
 Removed 1 SKU in Power BI because Code is null but daily csv unchanged:
 
-&nbsp;	Record ID 4439
+ 	Record ID 4439
 
-&nbsp;	Code null
+ 	Code null
 
-&nbsp;	Category AUSTRALIAN
+ 	Category AUSTRALIAN
 
-&nbsp;	Description PENFOLDS BIN 8 CAB/SHZ - 750ML
+ 	Description PENFOLDS BIN 8 CAB/SHZ - 750ML
 
-&nbsp;	Size 750ML
+ 	Size 750ML
 
-&nbsp;	Total Inventory 0
+ 	Total Inventory 0
 
-&nbsp;	Price 22.99
+ 	Price 22.99
 
 
 
