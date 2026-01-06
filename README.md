@@ -10,7 +10,7 @@ This project provides an analysis of the Alcoholic Beverage Services (ABS) in Mo
 
 
 
-This project also involves daily data collection. Once a full month of daily data is compiled, we can take a deeper look at the data. Missed daily sales for December 25-26, 2025 though. :(
+This project also involves daily data collection. Once a full month of daily data is compiled, we can take a deeper look at the data.
 
 
 
@@ -19,6 +19,14 @@ Data Source: https://catalog.data.gov/dataset/abs-store-inventory-and-sale-items
 Format: Live JSON API
 
 Endpoint: https://data.montgomerycountymd.gov/api/views/ib5t-5ncy/rows.json?accessType=DOWNLOAD
+
+
+
+Methodology and Data Constraints
+
+1. Because the source data provides daily inventory snapshots without a "Units Sold" or "Purchases/Restock" column, daily sales are not accurate. What we could monitor is the daily net inventory decrease/increase.
+2. The calculation represents a conservative estimate and it does not account for restocking, e.g. if an item is restocked and sold on the same day, true quantity sold may be higher.
+3. Missed data collection on December 25-26, 2025. :(
 
 
 
@@ -36,8 +44,6 @@ Additional columns added not included in JSON
 
 
 Removed 1 SKU in Power BI because Code is null but daily csv unchanged:
-
- 	Record ID 4439
 
  	Code null
 
